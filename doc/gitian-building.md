@@ -281,7 +281,7 @@ Clone the git repositories for svalqo and gitian and then checkout the svalqo ve
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/listedlinked/svsvalqo.git
+git clone https://github.com/listedlinked/svalqo.git
 cd svalqo
 git checkout v${VERSION}
 cd ..
