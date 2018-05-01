@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/listedlinked/svsvalqo.SIGS.git"
+- "url": "https://github.com/listedlinked/svalqo.SIGS.git"
   "dir": "signature"
 files:
 - "svalqo-osx-unsigned.tar.gz"

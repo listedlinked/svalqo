@@ -58,4 +58,4 @@ _For more information check out our whitepaper at [svalqo.org/whitepaper.pdf](ht
 
 Alternatively we have added a non .pdf Version into our Github. You can find it in the SVALQO Github Wiki.
 
-[https://github.com/listedlinked/svsvalqo/wiki](https://github.com/listedlinked/svsvalqo/wiki)
+[https://github.com/listedlinked/svalqo/wiki](https://github.com/listedlinked/svalqo/wiki)

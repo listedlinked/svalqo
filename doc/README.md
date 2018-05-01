@@ -41,7 +41,7 @@ The following are developer notes on how to build SVALQO on your native platform
 
 Development
 ---------------------
-The SVALQO repo's [root README](https://github.com/listedlinked/svsvalqo/blob/master/README.md) contains relevant information on the development process and automated testing.
+The SVALQO repo's [root README](https://github.com/listedlinked/svalqo/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
