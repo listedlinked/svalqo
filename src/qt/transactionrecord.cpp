@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2015-2017 The ALQO developers
+// Copyright (c) 2015-2017 The SVALQO developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -83,7 +83,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.credit = txout.nValue;
                 sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address)) {
-                    // Received by ALQO Address
+                    // Received by SVALQO Address
                     sub.type = TransactionRecord::RecvWithAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
@@ -99,46 +99,32 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
 				int nHeight = chainActive.Height();
 				int64_t nSubsidy;
 				
-				if(nHeight <= 86400 && nHeight > 0) {
-					nSubsidy = 200 * COIN;
-					if(nSubsidy / 100 * 20 == txout.nValue) {
+				if(nHeight <= 1 && nHeight > 0) {
+					nSubsidy = 1 * COIN;
+					if(nSubsidy / 100 * 70 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
-				} else if (nHeight > 86400 && nHeight <= 151200) {
-					nSubsidy = 150 * COIN;
-					if(nSubsidy / 100 * 25 == txout.nValue) {
+				} else if (nHeight > 1 && nHeight <= 100) {
+					nSubsidy = 1 * COIN;
+					if(nSubsidy / 100 * 70 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
-				} else if (nHeight > 151200 && nHeight <= 152500) {
-					nSubsidy = 125 * COIN;
-					if(nSubsidy / 100 * 20 == txout.nValue) {
+				} else if (nHeight > 100 && nHeight <= 120) {
+					nSubsidy = 5 * COIN;
+					if(nSubsidy / 100 * 70 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
-				} else if (nHeight > 152500 && nHeight <= 225000) {
-					nSubsidy = 125 * COIN;
-					if(nSubsidy / 100 * 30 == txout.nValue || nSubsidy / 100 * 60 == txout.nValue ) {
+				} else if (nHeight > 120 && nHeight <= 150) {
+					nSubsidy = 20 * COIN;
+					if(nSubsidy / 100 * 70 == txout.nValue || nSubsidy / 100 * 70 == txout.nValue ) {
 						sub.type = TransactionRecord::MNReward;
 					}
-				} else if (nHeight > 225000 && nHeight <= 302400) {
-					nSubsidy = 125 * COIN;
-					if(nSubsidy / 100 * 60 == txout.nValue) {
+				} else if (nHeight > 150 && nHeight <= 20000) {
+					nSubsidy = 25 * COIN;
+					if(nSubsidy / 100 * 70 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
-				} else if (nHeight > 302400 && nHeight <= 345600) {
-					nSubsidy = 100 * COIN;
-					if(nSubsidy / 100 * 60 == txout.nValue) {
-						sub.type = TransactionRecord::MNReward;
-					}
-				} else if (nHeight > 345600 && nHeight <= 388800) {
-					nSubsidy = 75 * COIN;
-					if(nSubsidy / 100 * 60 == txout.nValue) {
-						sub.type = TransactionRecord::MNReward;
-					}
-				} else if (nHeight > 388800 && nHeight <= 475200) { // 475200 => LAST POW BLOCK
-					nSubsidy = 50 * COIN;
-					if(nSubsidy / 100 * 60 == txout.nValue) {
-						sub.type = TransactionRecord::MNReward;
-					}
+				
 				}
 				
                 parts.append(sub);
@@ -189,7 +175,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.type = TransactionRecord::Obfuscated;
                 CTxDestination address;
                 if (ExtractDestination(wtx.vout[0].scriptPubKey, address)) {
-                    // Sent to ALQO Address
+                    // Sent to SVALQO Address
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
                     // Sent to IP, or other non-address transaction like OP_EVAL
@@ -232,7 +218,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
 
                 CTxDestination address;
                 if (ExtractDestination(txout.scriptPubKey, address)) {
-                    // Sent to ALQO Address
+                    // Sent to SVALQO Address
                     sub.type = TransactionRecord::SendToAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {

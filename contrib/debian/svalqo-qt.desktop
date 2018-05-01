@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SVALQO
+Comment=SVALQO P2P Cryptocurrency
+Comment[fr]=SVALQO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SVALQO, eşten eşe kriptografik sanal para birimi
+Exec=svalqo-qt %u
+Terminal=false
+Type=Application
+Icon=svalqo128
+MimeType=x-scheme-handler/svalqo;
+Categories=Office;Finance;

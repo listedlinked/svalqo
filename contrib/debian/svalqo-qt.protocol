@@ -1,0 +1,11 @@
+[Protocol]
+exec=svalqo-qt '%u'
+protocol=svalqo
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

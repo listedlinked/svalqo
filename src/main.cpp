@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2015-2017 The ALQO developers
+// Copyright (c) 2015-2017 The SVALQO developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "ALQO cannot be compiled without assertions."
+#error "SVALQO cannot be compiled without assertions."
 #endif
 
 /**
@@ -96,7 +96,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "ALQO Signed Message:\n";
+const string strMessageMagic = "SVALQO Signed Message:\n";
 
 // Internal stuff
 namespace
@@ -1615,41 +1615,26 @@ double ConvertBitsToDouble(unsigned int nBits)
         nShift--;
     }
 
-    return dDiff;
+     return dDiff;
 }
 
 int64_t GetBlockValue(int nHeight)
 {
  
-    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
-        if (nHeight < 200 && nHeight > 0)
-            return 250000 * COIN;
-    }
-	
-	if (nHeight == 0) return 100001 * COIN;
+	if (nHeight == 1) return 84000 * COIN;
 		
 	int64_t nSubsidy;
 	
-	if(nHeight <= 86400 && nHeight > 0) {
-        nSubsidy = 200 * COIN;
-	} else if (nHeight > 86400 && nHeight <= 151200) {
-		nSubsidy = 150 * COIN;
-	} else if (nHeight > 151200 && nHeight <= 302400) {
-		nSubsidy = 125 * COIN;
-	} else if (nHeight > 302400 && nHeight <= 345600) {
-		nSubsidy = 100 * COIN;
-	} else if (nHeight > 345600 && nHeight <= 388800) {
-		nSubsidy = 75 * COIN;
-	} else if (nHeight > 388800 && nHeight <= 475200) { // 475200 => LAST POW BLOCK
-		nSubsidy = 50 * COIN;
-	} else if (nHeight > 475200 && nHeight <= 518400) { // 475201 => FIRST POS BLOCK
-		nSubsidy = 50 * COIN;
-	} else if (nHeight > 518400 && nHeight <= 561600) {
-		nSubsidy = 25 * COIN;
-	} else if (nHeight > 561600 && nHeight <= 604800) {
-		nSubsidy = 10 * COIN;
-	} else if (nHeight > 604800) {
-		nSubsidy = 5 * COIN;
+	if( nHeight > 1 && nHeight <= 100 ) {
+	        nSubsidy = 1 * COIN;
+	} else if( nHeight > 100 && nHeight <= 120 ) {
+	        nSubsidy = 5 * COIN;
+	} else if( nHeight > 120 && nHeight <= 150 ) {
+	        nSubsidy = 20 * COIN;
+	} else if( nHeight > 150 && nHeight <= 20000 ) {
+	        nSubsidy = 25 * COIN;
+	} else {
+		nSubsidy = 30 * COIN;
 	}
 	
     return nSubsidy;
@@ -1660,58 +1645,13 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 {
 
 
-    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
-        if (nHeight < 200)
-            return 0;
-    }
-	
 	int64_t ret = 0;
 	
-	if(nHeight <= 86400 && nHeight > 0) {
-        ret = blockValue / 100 * 20;
-	} else if (nHeight > 86400 && nHeight <= 151200) {
-        ret = blockValue / 100 * 25;
-	} else if (nHeight > 151200 && nHeight <= 152500) {
-        ret = blockValue / 100 * 20;
-	} else if (nHeight > 152500 && nHeight <= 225000) {
-        ret = blockValue / 100 * 30;
-	} else if (nHeight > 225000 && nHeight <= 475200) {
-        ret = blockValue / 100 * 60;
-	} else if (nHeight > 475200) {
-		
-		int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-		
-		if(nMasternodeCount < 1) {
-			nMasternodeCount = mnodeman.stable_size();
-		}
-		
-		int64_t mNodeCoins = nMasternodeCount * 10000 * COIN;
-		
-		if (mNodeCoins == 0) {
-            ret = 0;
-		} else {
-			double lockedCoinValue = mNodeCoins / nMoneySupply;
-			
-			
-			double masternodeMultiplier = 1 - lockedCoinValue;
-			
-			if(masternodeMultiplier < .1) {
-				masternodeMultiplier = .1;
-			} else if(masternodeMultiplier > .9) {
-				masternodeMultiplier = .9;
-			}
-			
-			LogPrintf("[LIBRA] Adjusting Libra at height %d with %d masternodes (%d % locked ALQO) and %d ALQO supply at %ld\n", nHeight, nMasternodeCount, lockedCoinValue*100, nMoneySupply, GetTime());
-			LogPrintf("[LIBRA] Masternode: %d\n", masternodeMultiplier*100);
-			LogPrintf("[LIBRA] Staker: %d\n", (1 - masternodeMultiplier)*100);
-			
-			ret = blockValue * masternodeMultiplier;
-		}
-		
-	}
+        ret = blockValue * 0.7;
 	
 	return ret;
 }
+
 
 bool IsInitialBlockDownload()
 {
@@ -2097,7 +2037,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("alqo-scriptch");
+    RenameThread("svalqo-scriptch");
     scriptcheckqueue.Thread();
 }
 

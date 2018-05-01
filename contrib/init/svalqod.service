@@ -1,0 +1,26 @@
+[Unit]
+Description=SVALQO's distributed currency daemon
+After=network.target
+
+[Service]
+User=svalqo
+Group=svalqo
+
+Type=forking
+PIDFile=/var/lib/svalqod/svalqod.pid
+
+ExecStart=/usr/bin/svalqod -daemon -pid=/var/lib/svalqod/svalqod.pid \
+          -conf=/etc/svalqo/svalqo.conf -datadir=/var/lib/svalqod
+
+ExecStop=-/usr/bin/svalqo-cli -conf=/etc/svalqo/svalqo.conf \
+         -datadir=/var/lib/svalqod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

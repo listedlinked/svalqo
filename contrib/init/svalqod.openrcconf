@@ -1,0 +1,26 @@
+# /etc/conf.d/svalqod: config file for /etc/init.d/svalqod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/svalqo/svalqo.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/svalqod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/svalqod.pid"
+
+# Where to write svalqod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/svalqod"
+
+# User and group to own svalqod process
+#BITCOIND_USER="svalqo"
+#BITCOIND_GROUP="svalqo"
+
+# Path to svalqod executable
+#BITCOIND_BIN="/usr/bin/svalqod"
+
+# Nice value to run svalqod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

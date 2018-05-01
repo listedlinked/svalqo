@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between alqo-cli and alqod)
- * of a given instance of the ALQO system.
+ * CBaseChainParams defines the base parameters (shared between svalqo-cli and svalqod)
+ * of a given instance of the SVALQO system.
  */
 class CBaseChainParams
 {

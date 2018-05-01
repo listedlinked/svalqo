@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/svalqo_bg.qm</file>
+        <file alias="de">locale/svalqo_de.qm</file>
+        <file alias="en">locale/svalqo_en.qm</file>
+        <file alias="es">locale/svalqo_es.qm</file>
+        <file alias="fi">locale/svalqo_fi.qm</file>
+        <file alias="fr">locale/svalqo_fr.qm</file>
+        <file alias="it">locale/svalqo_it.qm</file>
+        <file alias="ja">locale/svalqo_ja.qm</file>
+        <file alias="pl">locale/svalqo_pl.qm</file>
+        <file alias="pt">locale/svalqo_pt.qm</file>
+        <file alias="ru">locale/svalqo_ru.qm</file>
+        <file alias="sk">locale/svalqo_sk.qm</file>
+        <file alias="sv">locale/svalqo_sv.qm</file>
+        <file alias="vi">locale/svalqo_vi.qm</file>
+        <file alias="zh_CN">locale/svalqo_zh_CN.qm</file>
+        <file alias="zh_TW">locale/svalqo_zh_TW.qm</file>
+    </qresource>
+</RCC>
