@@ -62,12 +62,12 @@
         <translation>Địa chỉ nhận</translation>
     </message>
     <message>
-        <source>These are your SVALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ SVALQO của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
+        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là các địa chỉ ALQO của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
     </message>
     <message>
-        <source>These are your SVALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là các địa chỉ SVALQO của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
+        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là các địa chỉ ALQO của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Ví đã được mã hoá.</translation>
     </message>
     <message>
-        <source>SVALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your svalqos from being stolen by malware infecting your computer.</source>
-        <translation>SVALQO sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ svalqo khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
+        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your alqos from being stolen by malware infecting your computer.</source>
+        <translation>ALQO sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ alqo khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Gửi</translation>
     </message>
     <message>
-        <source>Send coins to a SVALQO address</source>
-        <translation>Gửi tiền vào địa chỉ SVALQO</translation>
+        <source>Send coins to a ALQO address</source>
+        <translation>Gửi tiền vào địa chỉ ALQO</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Nhận</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and svalqo: URIs)</source>
-        <translation>Yêu cầu thanh toán (sinh mã QR và svalqo: URIs)</translation>
+        <source>Request payments (generates QR codes and alqo: URIs)</source>
+        <translation>Yêu cầu thanh toán (sinh mã QR và alqo: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About SVALQO Core</source>
-        <translation>&amp;Về SVALQO Core</translation>
+        <source>&amp;About ALQO Core</source>
+        <translation>&amp;Về ALQO Core</translation>
     </message>
     <message>
-        <source>Show information about SVALQO Core</source>
-        <translation>Hiển thị thông tin về SVALQO Core</translation>
+        <source>Show information about ALQO Core</source>
+        <translation>Hiển thị thông tin về ALQO Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Tuỳ chọn...</translation>
     </message>
     <message>
-        <source>Modify configuration options for SVALQO</source>
-        <translation>Thay đổi tuỳ chọn cấu hình cho SVALQO</translation>
+        <source>Modify configuration options for ALQO</source>
+        <translation>Thay đổi tuỳ chọn cấu hình cho ALQO</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Ký vào &amp;thông điệp...</translation>
     </message>
     <message>
-        <source>Sign messages with your SVALQO addresses to prove you own them</source>
-        <translation>Ký vào thông điệp với địa chỉ SVALQO để chứng minh bạn là chủ của chúng</translation>
+        <source>Sign messages with your ALQO addresses to prove you own them</source>
+        <translation>Ký vào thông điệp với địa chỉ ALQO để chứng minh bạn là chủ của chúng</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Kiểm tra thông điệp...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SVALQO addresses</source>
-        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ SVALQO nhất định</translation>
+        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
+        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ ALQO nhất định</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a svalqo: URI or payment request</source>
-        <translation>Mở một svalqo: URI hoặc một yêu cầu thanh toán</translation>
+        <source>Open a alqo: URI or payment request</source>
+        <translation>Mở một alqo: URI hoặc một yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>SVALQO Core client</source>
-        <translation>Phần mềm SVALQO Core</translation>
+        <source>ALQO Core client</source>
+        <translation>Phần mềm ALQO Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
-        <source>Show the SVALQO Core help message to get a list with possible SVALQO command-line options</source>
-        <translation>Hiển thị hướng dẫn của SVALQO Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của SVALQO.</translation>
+        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
+        <translation>Hiển thị hướng dẫn của ALQO Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của ALQO.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Bảng Thanh công cụ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to SVALQO network</source>
-        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của SVALQO</numerusform></translation>
+        <source>%n active connection(s) to ALQO network</source>
+        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của ALQO</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Kiểu: %3
         <translation>Cấu hình Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình SVALQO.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình ALQO.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình SVALQO.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình ALQO.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình SVALQO.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình ALQO.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Kiểu: %3
         <translation>Sửa địa chỉ gửi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SVALQO address.</source>
-        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ SVALQO hợp lệ.</translation>
+        <source>The entered address "%1" is not a valid ALQO address.</source>
+        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ ALQO hợp lệ.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Kiểu: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Kiểu: %3
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About SVALQO Core</source>
-        <translation>Về SVALQO Core</translation>
+        <source>About ALQO Core</source>
+        <translation>Về ALQO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Kiểu: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to SVALQO Core.</source>
-        <translation>Chào mừng đến với SVALQO Core.</translation>
+        <source>Welcome to ALQO Core.</source>
+        <translation>Chào mừng đến với ALQO Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SVALQO Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà SVALQO Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where ALQO Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà ALQO Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>SVALQO Core will download and store a copy of the SVALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SVALQO Core sẽ tải và lưu một bản của sổ cái SVALQO. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>ALQO Core will download and store a copy of the ALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ALQO Core sẽ tải và lưu một bản của sổ cái ALQO. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Kiểu: %3
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Kiểu: %3
         <translation>&amp;Chính</translation>
     </message>
     <message>
-        <source>Automatically start SVALQO after logging in to the system.</source>
-        <translation>Tự động khởi động SVALQO sau khi đăng nhập hệ thống.</translation>
+        <source>Automatically start ALQO after logging in to the system.</source>
+        <translation>Tự động khởi động ALQO sau khi đăng nhập hệ thống.</translation>
     </message>
     <message>
-        <source>&amp;Start SVALQO on system login</source>
-        <translation>&amp;Khởi động SVALQO khi đăng nhập hệ thống</translation>
+        <source>&amp;Start ALQO on system login</source>
+        <translation>&amp;Khởi động ALQO khi đăng nhập hệ thống</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Kiểu: %3
         <translation>Số lượng này hoạt động như là một ngưỡng để tắt Obfuscate một khi nó đạt đến.</translation>
     </message>
     <message>
-        <source>Amount of SVALQO to keep anonymized</source>
-        <translation>Lượng SVALQO muốn giữ vô danh</translation>
+        <source>Amount of ALQO to keep anonymized</source>
+        <translation>Lượng ALQO muốn giữ vô danh</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Kiểu: %3
         <translation>Cho phép các kết nối tới</translation>
     </message>
     <message>
-        <source>Connect to the SVALQO network through a SOCKS5 proxy.</source>
-        <translation>Kết nối với mạng lưới SVALQO thông qua một SOCK5 proxy.</translation>
+        <source>Connect to the ALQO network through a SOCKS5 proxy.</source>
+        <translation>Kết nối với mạng lưới ALQO thông qua một SOCK5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Kiểu: %3
         <translation>&amp;Mạng</translation>
     </message>
     <message>
-        <source>Automatically open the SVALQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Tự động mở cổng phần mềm SVALQO trên rounter. Nó chỉ làm việc khi router của bạn hỗ trợ UPnP và nó phải được bật.</translation>
+        <source>Automatically open the ALQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Tự động mở cổng phần mềm ALQO trên rounter. Nó chỉ làm việc khi router của bạn hỗ trợ UPnP và nó phải được bật.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,14 +1258,14 @@ Kiểu: %3
         <translation>&amp;Ngôn ngữ người dùng:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SVALQO.</source>
-        <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại SVALQO.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ALQO.</source>
+        <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại ALQO.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</source>
+https://www.transifex.com/alqo-crypto/alqo-wallet-translations/</source>
         <translation>Ngôn ngữ ị thiếu hoặc việc dịch chưa hoàn tất? Tham gia dịch giúp tại đây:
-https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation>
+https://www.transifex.com/alqo-crypto/alqo-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Biểu mẫu</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SVALQO network after a connection is established, but this process has not completed yet.</source>
-        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới SVALQO sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ALQO network after a connection is established, but this process has not completed yet.</source>
+        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới ALQO sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Yêu cầu thanh toán bị lỗi</translation>
     </message>
     <message>
-        <source>Cannot start svalqo: click-to-pay handler</source>
-        <translation>Không thể khởi động svalqo: trình xử lý click-to-pay</translation>
+        <source>Cannot start alqo: click-to-pay handler</source>
+        <translation>Không thể khởi động alqo: trình xử lý click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Địa chỉ thanh toán không hợp lệ %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SVALQO address or malformed URI parameters.</source>
-        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ SVALQO không hợp lệ hoặc thông số URI dị hình.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid ALQO address or malformed URI parameters.</source>
+        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ ALQO không hợp lệ hoặc thông số URI dị hình.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Số lượng</translation>
     </message>
     <message>
-        <source>Enter a SVALQO address (e.g. %1)</source>
-        <translation>Hãy nhập một địa chỉ SVALQO (VD: %1)</translation>
+        <source>Enter a ALQO address (e.g. %1)</source>
+        <translation>Hãy nhập một địa chỉ ALQO (VD: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Số kết nối</translation>
     </message>
     <message>
-        <source>Open the SVALQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Mở file nhật kỹ lỗi SVALQO từ thư mục hiện tại. Nó có thể mất vài giây trong trường hợp file log lớn.</translation>
+        <source>Open the ALQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Mở file nhật kỹ lỗi ALQO từ thư mục hiện tại. Nó có thể mất vài giây trong trường hợp file log lớn.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Ra:</translation>
     </message>
     <message>
-        <source>Welcome to the SVALQO RPC console.</source>
-        <translation>Chào mừng đến với giao tiếp SVALQO RPC</translation>
+        <source>Welcome to the ALQO RPC console.</source>
+        <translation>Chào mừng đến với giao tiếp ALQO RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Tái &amp;sử dụng lại địa chỉ nhận đã có (không khuyến khích)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SVALQO network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới SVALQO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ALQO network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới ALQO.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Một nhãn tuỳ chọn để liên kết với địa chỉ nhận mới.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SVALQO network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới SVALQO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ALQO network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới ALQO.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,8 +2292,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Nếu phí giao dịch tuỳ chỉnh được đặt là 1000 duff và giao dịch chỉ có 250 bytes, thì "theo kilobyte" chỉ trả 250 duff phí,&lt;br /&gt;trong khi "tổng ít nhất" trả 1000 duff. Với các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for svalqo transactions than the network can process.</source>
-        <translation>Chỉ trả phí tối thiểu cũng được chỉ khi mà có lượng giao dịch ít hơn không gian trong khối.&lt;br /&gt;Nhưng cần lưu ý là nó có thể xảy ra hiện tượng giao dịch không bao giờ được xác nhận một khi có nhiều nhu cầu giao svalqo hơn khả năng mà mạng lưới có thể xử lý được.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for alqo transactions than the network can process.</source>
+        <translation>Chỉ trả phí tối thiểu cũng được chỉ khi mà có lượng giao dịch ít hơn không gian trong khối.&lt;br /&gt;Nhưng cần lưu ý là nó có thể xảy ra hiện tượng giao dịch không bao giờ được xác nhận một khi có nhiều nhu cầu giao alqo hơn khả năng mà mạng lưới có thể xử lý được.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Thanh toán chỉ mức phí tối thiểu của %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid SVALQO address</source>
-        <translation>Cảnh báo: Địa chỉ SVALQO không hợp lệ</translation>
+        <source>Warning: Invalid ALQO address</source>
+        <translation>Cảnh báo: Địa chỉ ALQO không hợp lệ</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Trả &amp;Cho</translation>
     </message>
     <message>
-        <source>The SVALQO address to send the payment to</source>
-        <translation>Địa chỉ SVALQO để gửi thanh toán</translation>
+        <source>The ALQO address to send the payment to</source>
+        <translation>Địa chỉ ALQO để gửi thanh toán</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Thông điệp:</translation>
     </message>
     <message>
-        <source>A message that was attached to the svalqo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SVALQO network.</source>
-        <translation>Một thông điệp được đính với svalqo: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng SVALQO. </translation>
+        <source>A message that was attached to the alqo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ALQO network.</source>
+        <translation>Một thông điệp được đính với alqo: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng ALQO. </translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SVALQO Core is shutting down...</source>
-        <translation>SVALQO Core đang được tắt...</translation>
+        <source>ALQO Core is shutting down...</source>
+        <translation>ALQO Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Bạn có thể ký vào thông điệp với địa chỉ của bạn để chứng minh bạn là chủ của nó. Hãy cẩn thận không ký vào những gì mơ hồ, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
     </message>
     <message>
-        <source>The SVALQO address to sign the message with</source>
-        <translation>Địa chỉ SVALQO để ký cho thông điệp</translation>
+        <source>The ALQO address to sign the message with</source>
+        <translation>Địa chỉ ALQO để ký cho thông điệp</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Copy chữ ký hiện tại vào bộ đệm của hệ thống</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SVALQO address</source>
-        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ SVALQO</translation>
+        <source>Sign the message to prove you own this ALQO address</source>
+        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ ALQO</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Hãy nhập địa chỉ ký, thông điệp (hãy chắc chắn rằng bạn copy cả các dấu xuống dòng, dấu cách, tab,... một cách chính xác) và chữ ký dưới đây để xác thực cho thông điệp. Hãy cẩn thận không thêm vào chữ ký hơn so với bản thân nó trong thông điệp đã ký, để tránh bị đánh lừa bởi kiểu tấn công người trung gian.</translation>
     </message>
     <message>
-        <source>The SVALQO address the message was signed with</source>
-        <translation>Địa chỉ SVALQO mà thông điệp được ký bởi</translation>
+        <source>The ALQO address the message was signed with</source>
+        <translation>Địa chỉ ALQO mà thông điệp được ký bởi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SVALQO address</source>
-        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ SVALQO cụ thể</translation>
+        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
+        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ ALQO cụ thể</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The SVALQO Core developers</source>
-        <translation>Nhóm phát triển SVALQO Core</translation>
+        <source>The ALQO Core developers</source>
+        <translation>Nhóm phát triển ALQO Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
     </message>
 </context>
 <context>
-    <name>svalqo-core</name>
+    <name>alqo-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. SVALQO Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. SVALQO Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. ALQO Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. ALQO Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. SVALQO Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. SVALQO Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. ALQO Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. ALQO Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Xoá hết tất cả các giao dịch ví và chỉ phục hồi những phần đó của blockchain qua -rescan khi khởi động</translation>
     </message>
     <message>
-        <source>Disable all SVALQO specific functionality (Masternodes, Obfuscate, HyperSend, Budgeting) (0-1, default: %u)</source>
-        <translation>Tắt tất cả các chức năng đặc trưng của SVALQO (Masternode, Obfuscate, HyperSend, Lập ngân sách) (0-1, ngầm định: %u)</translation>
+        <source>Disable all ALQO specific functionality (Masternodes, Obfuscate, HyperSend, Budgeting) (0-1, default: %u)</source>
+        <translation>Tắt tất cả các chức năng đặc trưng của ALQO (Masternode, Obfuscate, HyperSend, Lập ngân sách) (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3710,27 +3710,27 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Sản phẩm này có kèm theo phần mềm được phát triển bởi dự án OpenSSL để sử dụng các công cụ OpenSSL &lt;https://www.openssl.org/&gt; và phần mềm mã hoá được viết bởi Eric Young và phần mềm UPnP được viết bởi Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use svalqod, or the -server option to svalqo-qt, you must set an rpcpassword in the configuration file:
+        <source>To use alqod, or the -server option to alqo-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=svalqorpc
+rpcuser=alqorpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "ALQO Alert" admin@foo.com
 </source>
-        <translation>Để sử dụng svalqod, hoặc tuỳ chọn -server với svalqo-qt, bạn phải đặt một mật khẩu rpcpassword trong tệp cấu hình:
+        <translation>Để sử dụng alqod, hoặc tuỳ chọn -server với alqo-qt, bạn phải đặt một mật khẩu rpcpassword trong tệp cấu hình:
 %s
 Gợi ý rằng bạn nên sử dụng những mật khẩu ngẫu nhiên sau:
-rpcuser=svalqorpc
+rpcuser=alqorpc
 rpcpassword=%s
 (bạn không cần thiết phải nhớ mật khẩu này)
 Username và mật khẩu KHÔNG ĐƯỢC giống nhau.
 Nếu tệp chưa có, thì hãy tạo ra với quyền chỉ đọc.
 Gợi ý bạn rằng cần đặt alertnotify để bạn nhận được thông báo về các vấn đề;
-ví dụ: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
+ví dụ: alertnotify=echo %%s | mail -s "ALQO Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3746,8 +3746,8 @@ ví dụ: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
         <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SVALQO Core will not work properly.</source>
-        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì SVALQO Core sẽ không làm việc một cách hoàn hảo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ALQO Core will not work properly.</source>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì ALQO Core sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ ví dụ: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The SVALQO Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển SVALQO Core</translation>
+        <source>Copyright (C) 2014-%i The ALQO Core Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển ALQO Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ ví dụ: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of SVALQO Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của SVALQO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ALQO Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của ALQO Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ ví dụ: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. SVALQO Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. SVALQO Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. ALQO Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. ALQO Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ ví dụ: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
         <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart SVALQO Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại SVALQO Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart ALQO Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại ALQO Core để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

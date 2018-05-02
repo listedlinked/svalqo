@@ -62,12 +62,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your SVALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy SVALQO na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
+        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy ALQO na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
     </message>
     <message>
-        <source>These are your SVALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy do otrzymywania SVALQOów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
+        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy do otrzymywania ALQOów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>SVALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your svalqos from being stolen by malware infecting your computer.</source>
-        <translation>SVALQO zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
+        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your alqos from being stolen by malware infecting your computer.</source>
+        <translation>ALQO zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>Send coins to a SVALQO address</source>
-        <translation>Wyślij monety na adres SVALQO</translation>
+        <source>Send coins to a ALQO address</source>
+        <translation>Wyślij monety na adres ALQO</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>Odbie&amp;rz</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and svalqo: URIs)</source>
-        <translation>Poproś o płatności (generuje kod QR oraz svalqo: link)</translation>
+        <source>Request payments (generates QR codes and alqo: URIs)</source>
+        <translation>Poproś o płatności (generuje kod QR oraz alqo: link)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Zamknij program</translation>
     </message>
     <message>
-        <source>&amp;About SVALQO Core</source>
-        <translation>&amp;O SVALQO Core</translation>
+        <source>&amp;About ALQO Core</source>
+        <translation>&amp;O ALQO Core</translation>
     </message>
     <message>
-        <source>Show information about SVALQO Core</source>
-        <translation>Pokaż informacje o SVALQO Core</translation>
+        <source>Show information about ALQO Core</source>
+        <translation>Pokaż informacje o ALQO Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opcje...</translation>
     </message>
     <message>
-        <source>Modify configuration options for SVALQO</source>
-        <translation>Zmień opcje konfiguracji dla SVALQO</translation>
+        <source>Modify configuration options for ALQO</source>
+        <translation>Zmień opcje konfiguracji dla ALQO</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpisz wiado&amp;mość...</translation>
     </message>
     <message>
-        <source>Sign messages with your SVALQO addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem SVALQO aby udowodnić, że jesteś ich właścicielem. </translation>
+        <source>Sign messages with your ALQO addresses to prove you own them</source>
+        <translation>Podpisz wiadomości swoim adresem ALQO aby udowodnić, że jesteś ich właścicielem. </translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Zweryfikuj wiadomość...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SVALQO addresses</source>
-        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem SVALQO</translation>
+        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
+        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem ALQO</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Otwórz URI...</translation>
     </message>
     <message>
-        <source>Open a svalqo: URI or payment request</source>
-        <translation>Otwórz svalqo: Link lub żądanie zapłaty</translation>
+        <source>Open a alqo: URI or payment request</source>
+        <translation>Otwórz alqo: Link lub żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opcje konsoli</translation>
     </message>
     <message>
-        <source>SVALQO Core client</source>
-        <translation>Klient SVALQO Core</translation>
+        <source>ALQO Core client</source>
+        <translation>Klient ALQO Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizuję dodatkowe dane: %p%</translation>
     </message>
     <message>
-        <source>Show the SVALQO Core help message to get a list with possible SVALQO command-line options</source>
-        <translation>Pokaż wiadomość pomocy SVALQO Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
+        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
+        <translation>Pokaż wiadomość pomocy ALQO Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Pasek zakładek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to SVALQO network</source>
-        <translation><numerusform>%n aktywne połączenie do sieci SVALQO</numerusform><numerusform>%n aktywne połączenia do sieci SVALQO</numerusform><numerusform>%n aktywne połączenia do sieci SVALQO</numerusform></translation>
+        <source>%n active connection(s) to ALQO network</source>
+        <translation><numerusform>%n aktywne połączenie do sieci ALQO</numerusform><numerusform>%n aktywne połączenia do sieci ALQO</numerusform><numerusform>%n aktywne połączenia do sieci ALQO</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Adres: %4
         <translation>Konfiguracja Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją SVALQO.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją ALQO.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją SVALQO.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją ALQO.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją SVALQO.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją ALQO.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Adres: %4
         <translation>Zmień adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SVALQO address.</source>
-        <translation>Wprowadzony adres "%1" nie jest właściwym adresem SVALQO.</translation>
+        <source>The entered address "%1" is not a valid ALQO address.</source>
+        <translation>Wprowadzony adres "%1" nie jest właściwym adresem ALQO.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adres: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About SVALQO Core</source>
-        <translation>Informacje o SVALQO Core</translation>
+        <source>About ALQO Core</source>
+        <translation>Informacje o ALQO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Adres: %4
         <translation>Witaj</translation>
     </message>
     <message>
-        <source>Welcome to SVALQO Core.</source>
-        <translation>Witaj w SVALQO Core</translation>
+        <source>Welcome to ALQO Core.</source>
+        <translation>Witaj w ALQO Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SVALQO Core will store its data.</source>
-        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie SVALQO Core będzie przechowywał dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where ALQO Core will store its data.</source>
+        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie ALQO Core będzie przechowywał dane.</translation>
     </message>
     <message>
-        <source>SVALQO Core will download and store a copy of the SVALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SVALQO Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
+        <source>ALQO Core will download and store a copy of the ALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ALQO Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adres: %4
         <translation>Użyj wybranego folderu dla danych</translation>
     </message>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Adres: %4
         <translation>Główne</translation>
     </message>
     <message>
-        <source>Automatically start SVALQO after logging in to the system.</source>
-        <translation>Automatycznie uruchom SVALQO po zalogowaniu się do systemu.</translation>
+        <source>Automatically start ALQO after logging in to the system.</source>
+        <translation>Automatycznie uruchom ALQO po zalogowaniu się do systemu.</translation>
     </message>
     <message>
-        <source>&amp;Start SVALQO on system login</source>
-        <translation>&amp;Uruchom SVALQO po zalogowaniu się do systemu</translation>
+        <source>&amp;Start ALQO on system login</source>
+        <translation>&amp;Uruchom ALQO po zalogowaniu się do systemu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Adres: %4
         <translation>Ta kwota działa jako próg po którego przekroczeniu Obfuscate zostaje wyłączony.</translation>
     </message>
     <message>
-        <source>Amount of SVALQO to keep anonymized</source>
-        <translation>Ilość SVALQOów, które mają pozostać anonimowe.</translation>
+        <source>Amount of ALQO to keep anonymized</source>
+        <translation>Ilość ALQOów, które mają pozostać anonimowe.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Adres: %4
         <translation>Zezwól na przychdzące połączenia</translation>
     </message>
     <message>
-        <source>Connect to the SVALQO network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią SVALQO przez proxy SOCKS5.</translation>
+        <source>Connect to the ALQO network through a SOCKS5 proxy.</source>
+        <translation>Połącz się z siecią ALQO przez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,7 +1206,7 @@ Adres: %4
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>Automatically open the SVALQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the ALQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatycznie uruchamiaj port klienta Darkneta na ruterze. To działa tylko jeśli twój ruter wspiera  i ma włączone UPnP.</translation>
     </message>
     <message>
@@ -1258,14 +1258,14 @@ Adres: %4
         <translation>Język &amp;Użytkownika:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SVALQO.</source>
-        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu SVALQO.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ALQO.</source>
+        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu ALQO.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</source>
-        <translation>SVALQO Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
-https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation>
+https://www.transifex.com/alqo-crypto/alqo-wallet-translations/</source>
+        <translation>ALQO Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
+https://www.transifex.com/alqo-crypto/alqo-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SVALQO network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią SVALQO jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ALQO network after a connection is established, but this process has not completed yet.</source>
+        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią ALQO jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Błąd żądania płatności</translation>
     </message>
     <message>
-        <source>Cannot start svalqo: click-to-pay handler</source>
-        <translation>Nie można włączyć svalqo: kliknij-aby-zapłacić ubsługującemu.</translation>
+        <source>Cannot start alqo: click-to-pay handler</source>
+        <translation>Nie można włączyć alqo: kliknij-aby-zapłacić ubsługującemu.</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Nieprawidłowy adres płatności %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SVALQO address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres SVALQO lub niewłaściwe parametry URI</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid ALQO address or malformed URI parameters.</source>
+        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres ALQO lub niewłaściwe parametry URI</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter a SVALQO address (e.g. %1)</source>
-        <translation>Wpisz adres SVALQO (np. %1)</translation>
+        <source>Enter a ALQO address (e.g. %1)</source>
+        <translation>Wpisz adres ALQO (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,7 +1764,7 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Liczba połączeń</translation>
     </message>
     <message>
-        <source>Open the SVALQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the ALQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otwiera plik z zapisami debugowania Darkneta z obecnego katalogu. Może to potrfać kilka sekund w zależności od rozmiaru pliku.</translation>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Wyjście:</translation>
     </message>
     <message>
-        <source>Welcome to the SVALQO RPC console.</source>
+        <source>Welcome to the ALQO RPC console.</source>
         <translation>Witaj w konsoli RPC Darkneta</translation>
     </message>
     <message>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Użyj istniejący adres odbiorczy (nie zalecane)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SVALQO network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć SVALQO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ALQO network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć ALQO.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Opcjonalna etykieta do skojarzenia z nowym adresem odbiorczym.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SVALQO network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć SVALQO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ALQO network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć ALQO.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,7 +2292,7 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów a sama transakcja ma tylko 250 bitów, to opłata jako "za kilobajt" wynosi tylko 250 duffów.&lt;br/&gt; Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jedn kilobajt opłata jest naliczana od kilobajta.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for svalqo transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for alqo transactions than the network can process.</source>
         <translation>Uiszczanie minimalnej opłaty za transakcję jest ok dopóki ilość transakcji nie przekracza dostępnego miejsca w bloku. &lt;br /&gt;Jednakże, jeśli zaistnieje taka sytuacja w której wysłanych zostaje więcej transakcji niż sieć może przetworzyć, to jest możliwe, że twoja transakcja nigdy nie zostanie potwierdzona.</translation>
     </message>
     <message>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Uiść minimalną opłatę %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid SVALQO address</source>
-        <translation>Ostrzeżenie: adres SVALQO jest nieprawidlowy </translation>
+        <source>Warning: Invalid ALQO address</source>
+        <translation>Ostrzeżenie: adres ALQO jest nieprawidlowy </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Zapłać &amp;dla:</translation>
     </message>
     <message>
-        <source>The SVALQO address to send the payment to</source>
-        <translation>Adres SVALQO na który wysłać fundusze</translation>
+        <source>The ALQO address to send the payment to</source>
+        <translation>Adres ALQO na który wysłać fundusze</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the svalqo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SVALQO network.</source>
-        <translation>Wiadomość, która została dołączona do svalqo: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkneta.</translation>
+        <source>A message that was attached to the alqo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ALQO network.</source>
+        <translation>Wiadomość, która została dołączona do alqo: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkneta.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SVALQO Core is shutting down...</source>
-        <translation>Trwa zamykanie SVALQO Core</translation>
+        <source>ALQO Core is shutting down...</source>
+        <translation>Trwa zamykanie ALQO Core</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
     <message>
-        <source>The SVALQO address to sign the message with</source>
-        <translation>Adres SVALQO do podpisu wiadomości</translation>
+        <source>The ALQO address to sign the message with</source>
+        <translation>Adres ALQO do podpisu wiadomości</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SVALQO address</source>
-        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu SVALQO.</translation>
+        <source>Sign the message to prove you own this ALQO address</source>
+        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu ALQO.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Wpisz adres podpisujący, podaj wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
     </message>
     <message>
-        <source>The SVALQO address the message was signed with</source>
-        <translation>Adres SVALQO którym wiadomość została podpisana</translation>
+        <source>The ALQO address the message was signed with</source>
+        <translation>Adres ALQO którym wiadomość została podpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SVALQO address</source>
-        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres SVALQO</translation>
+        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
+        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres ALQO</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Deweloperzy Bitcoin Core</translation>
     </message>
     <message>
-        <source>The SVALQO Core developers</source>
-        <translation>Deweloperzy SVALQO Core</translation>
+        <source>The ALQO Core developers</source>
+        <translation>Deweloperzy ALQO Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
     </message>
 </context>
 <context>
-    <name>svalqo-core</name>
+    <name>alqo-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. SVALQO Core is probably already running.</source>
-        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie SVALQO jest już uruchomiony. </translation>
+        <source>Cannot obtain a lock on data directory %s. ALQO Core is probably already running.</source>
+        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie ALQO jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Ta wersja nie jest jeszcze gotowa na oficjalne wydanie - używaj jej na własne ryzyko - nie używaj tej wersji do kopania monet lub do świadczenia usług komercyjnych.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. SVALQO Core is probably already running.</source>
-        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie SVALQO jest już uruchomiony. </translation>
+        <source>Unable to bind to %s on this computer. ALQO Core is probably already running.</source>
+        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie ALQO jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko te części blockchainu - zeskanuj powonie na starcie.</translation>
     </message>
     <message>
-        <source>Disable all SVALQO specific functionality (Masternodes, Obfuscate, HyperSend, Budgeting) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie dodatkowe funckje SVALQO (Masternody, Obfuscate, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
+        <source>Disable all ALQO specific functionality (Masternodes, Obfuscate, HyperSend, Budgeting) (0-1, default: %u)</source>
+        <translation>Wyłącz wszystkie dodatkowe funckje ALQO (Masternody, Obfuscate, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3710,26 +3710,26 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Project do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use svalqod, or the -server option to svalqo-qt, you must set an rpcpassword in the configuration file:
+        <source>To use alqod, or the -server option to alqo-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=svalqorpc
+rpcuser=alqorpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "ALQO Alert" admin@foo.com
 </source>
-        <translation>Aby używać svalqod, lub opcje -server w kliencie svalqo-qt, musisz ustawić hasło rpc w pliku konfiguracji:
+        <translation>Aby używać alqod, lub opcje -server w kliencie alqo-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
 Zalecane jest abyś użył te o to losowo stworzone hasło
-rpcuser=svalqorpc
+rpcuser=alqorpc
 rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.
 Jeśli plik ten nie istnieje, stwórz go z uprawnieniami do odczytu tylko przez właściciela.
-Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "SVALQO Alert" admin@foo.com
+Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "ALQO Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3745,8 +3745,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Uwaga: -maxtxfee jest bardzo wysoka! Tak duże opłaty mogą być uiszczone przy wysłaniu jednej transakcji.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SVALQO Core will not work properly.</source>
-        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to SVALQO może nie działać poprawidłowo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ALQO Core will not work properly.</source>
+        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to ALQO może nie działać poprawidłowo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Prawo autorskie (c) 2009-%i deweloperzy Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The SVALQO Core Developers</source>
-        <translation>Prawa autorskie (C) 2014-%i deweloperzy SVALQO</translation>
+        <source>Copyright (C) 2014-%i The ALQO Core Developers</source>
+        <translation>Prawa autorskie (C) 2014-%i deweloperzy ALQO</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Błąd w połączeniu z Masternodem.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of SVALQO Core</source>
-        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji SVALQO</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ALQO Core</source>
+        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji ALQO</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Informacja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. SVALQO Core is shutting down.</source>
-        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie SVALQO Core</translation>
+        <source>Initialization sanity check failed. ALQO Core is shutting down.</source>
+        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie ALQO Core</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Użyj UPnP aby zmapować port nasłuchu (domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart SVALQO Core to complete</source>
-        <translation>Portfel potrzebuje być przepisany: uruchom ponownie SVALQO Core aby zakończyć.</translation>
+        <source>Wallet needed to be rewritten: restart ALQO Core to complete</source>
+        <translation>Portfel potrzebuje być przepisany: uruchom ponownie ALQO Core aby zakończyć.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4216,7 +4216,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Keep N DNET anonymized (default: %u)</source>
-        <translation>Utrzymuj N zanonimizowanych svalqo (domyślnie: %u)</translation>
+        <translation>Utrzymuj N zanonimizowanych alqo (domyślnie: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

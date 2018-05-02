@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your SVALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše SVALQO adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše ALQO adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your SVALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše SVALQO adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše ALQO adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>SVALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your svalqos from being stolen by malware infecting your computer.</source>
-        <translation>SVALQOCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
+        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your alqos from being stolen by malware infecting your computer.</source>
+        <translation>ALQOCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a SVALQO address</source>
-        <translation>Poslať mince na SVALQO adresu</translation>
+        <source>Send coins to a ALQO address</source>
+        <translation>Poslať mince na ALQO adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and svalqo: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a SVALQO: URI)</translation>
+        <source>Request payments (generates QR codes and alqo: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a ALQO: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About SVALQO Core</source>
-        <translation>&amp;O SVALQO Core</translation>
+        <source>&amp;About ALQO Core</source>
+        <translation>&amp;O ALQO Core</translation>
     </message>
     <message>
-        <source>Show information about SVALQO Core</source>
-        <translation>Zobraziť informácie o SVALQO Core</translation>
+        <source>Show information about ALQO Core</source>
+        <translation>Zobraziť informácie o ALQO Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for SVALQO</source>
-        <translation>Upraviť možnosti konfigurácie pre SVALQO</translation>
+        <source>Modify configuration options for ALQO</source>
+        <translation>Upraviť možnosti konfigurácie pre ALQO</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your SVALQO addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi SVALQO adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your ALQO addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi ALQO adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SVALQO addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými SVALQO adresami</translation>
+        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými ALQO adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a svalqo: URI or payment request</source>
-        <translation>Otvoriť svalqo: URI alebo žiadosť o platbu </translation>
+        <source>Open a alqo: URI or payment request</source>
+        <translation>Otvoriť alqo: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>SVALQO Core client</source>
-        <translation>SVALQO Core klient</translation>
+        <source>ALQO Core client</source>
+        <translation>ALQO Core klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the SVALQO Core help message to get a list with possible SVALQO command-line options</source>
-        <translation>Zobraziť SVALQO Core nápovedu k získaniu zoznamu možností príkazového riadku SVALQO.</translation>
+        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
+        <translation>Zobraziť ALQO Core nápovedu k získaniu zoznamu možností príkazového riadku ALQO.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to SVALQO network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou SVALQO</numerusform><numerusform>%n aktívne spojenia so sieťou SVALQO</numerusform><numerusform>%n aktívnych spojení so sieťou SVALQO</numerusform></translation>
+        <source>%n active connection(s) to ALQO network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou ALQO</numerusform><numerusform>%n aktívne spojenia so sieťou ALQO</numerusform><numerusform>%n aktívnych spojení so sieťou ALQO</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -895,16 +895,16 @@ Adresa: %4</translation>
         <translation>Konfigurácia Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky SVALQO.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky ALQO.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky SVALQO.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky ALQO.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SVALQO's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky SVALQO.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky ALQO.</translation>
     </message>
 </context>
 <context>
@@ -946,8 +946,8 @@ Adresa: %4</translation>
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SVALQO address.</source>
-        <translation>Zadaná adresa "%1" nie je platná SVALQO adresa.</translation>
+        <source>The entered address "%1" is not a valid ALQO address.</source>
+        <translation>Zadaná adresa "%1" nie je platná ALQO adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -988,8 +988,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About SVALQO Core</source>
-        <translation>O SVALQO Core</translation>
+        <source>About ALQO Core</source>
+        <translation>O ALQO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to SVALQO Core.</source>
-        <translation>Vitajte v SVALQO Core.</translation>
+        <source>Welcome to ALQO Core.</source>
+        <translation>Vitajte v ALQO Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SVALQO Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude SVALQO Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where ALQO Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude ALQO Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>SVALQO Core will download and store a copy of the SVALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SVALQO Core stiahne a uloží kópiu reťazca blokov SVALQO. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>ALQO Core will download and store a copy of the ALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ALQO Core stiahne a uloží kópiu reťazca blokov ALQO. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1121,12 +1121,12 @@ Adresa: %4</translation>
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically start SVALQO after logging in to the system.</source>
-        <translation>Automaticky spustiť SVALQO po prihlásení do systému.</translation>
+        <source>Automatically start ALQO after logging in to the system.</source>
+        <translation>Automaticky spustiť ALQO po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start SVALQO on system login</source>
-        <translation>&amp;Spusť SVALQO po prihlásení do systému</translation>
+        <source>&amp;Start ALQO on system login</source>
+        <translation>&amp;Spusť ALQO po prihlásení do systému</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1153,8 +1153,8 @@ Adresa: %4</translation>
         <translation>Táto suma slúži ako hranica pre vypnutie Obfuscate akonáhle je dosiahnutá</translation>
     </message>
     <message>
-        <source>Amount of SVALQO to keep anonymized</source>
-        <translation>Suma SVALQO ktorú držať anonymne </translation>
+        <source>Amount of ALQO to keep anonymized</source>
+        <translation>Suma ALQO ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1173,8 +1173,8 @@ Adresa: %4</translation>
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the SVALQO network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete SVALQO cez proxy SOCKS5.</translation>
+        <source>Connect to the ALQO network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete ALQO cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1205,8 +1205,8 @@ Adresa: %4</translation>
         <translation>Sieť</translation>
     </message>
     <message>
-        <source>Automatically open the SVALQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť na smerovači port pre SVALQO klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
+        <source>Automatically open the ALQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre ALQO klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1257,14 +1257,14 @@ Adresa: %4</translation>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SVALQO.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní SVALQO.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ALQO.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní ALQO.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</source>
+https://www.transifex.com/alqo-crypto/alqo-wallet-translations/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation>
+https://www.transifex.com/alqo-crypto/alqo-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1346,8 +1346,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SVALQO network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou SVALQO akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ALQO network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou ALQO akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1567,8 +1567,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start svalqo: click-to-pay handler</source>
-        <translation>SVALQO sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start alqo: click-to-pay handler</source>
+        <translation>ALQO sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1587,8 +1587,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SVALQO address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou SVALQO adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid ALQO address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou ALQO adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a SVALQO address (e.g. %1)</source>
-        <translation>Zadajte SVALQO adresu (e.g. %1)</translation>
+        <source>Enter a ALQO address (e.g. %1)</source>
+        <translation>Zadajte ALQO adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1763,8 +1763,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Počet pripojení</translation>
     </message>
     <message>
-        <source>Open the SVALQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť denník ladenia SVALQO zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
+        <source>Open the ALQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť denník ladenia ALQO zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1971,8 +1971,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Von:</translation>
     </message>
     <message>
-        <source>Welcome to the SVALQO RPC console.</source>
-        <translation>Vitajte v konzole SVALQO RPC</translation>
+        <source>Welcome to the ALQO RPC console.</source>
+        <translation>Vitajte v konzole ALQO RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2034,8 +2034,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SVALQO network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť SVALQO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ALQO network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť ALQO.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2046,8 +2046,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SVALQO network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť SVALQO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ALQO network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť ALQO.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2291,8 +2291,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for svalqo transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po SVALQO transakciách väčší ako dokáže sieť SVALQO spracovať.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for alqo transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po ALQO transakciách väčší ako dokáže sieť ALQO spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2495,8 +2495,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid SVALQO address</source>
-        <translation>Upozornenie: Neplatná SVALQO adresa</translation>
+        <source>Warning: Invalid ALQO address</source>
+        <translation>Upozornenie: Neplatná ALQO adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2518,8 +2518,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The SVALQO address to send the payment to</source>
-        <translation>SVALQO adresa pre poslanie platby</translation>
+        <source>The ALQO address to send the payment to</source>
+        <translation>ALQO adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2558,8 +2558,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the svalqo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SVALQO network.</source>
-        <translation>Správa ktorá bola pripojená ku svalqo: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť SVALQO.</translation>
+        <source>A message that was attached to the alqo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ALQO network.</source>
+        <translation>Správa ktorá bola pripojená ku alqo: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť ALQO.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2585,8 +2585,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SVALQO Core is shutting down...</source>
-        <translation>SVALQO core sa vypína...</translation>
+        <source>ALQO Core is shutting down...</source>
+        <translation>ALQO core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
-        <source>The SVALQO address to sign the message with</source>
-        <translation>SVALQO adresa na podpísanie správy</translation>
+        <source>The ALQO address to sign the message with</source>
+        <translation>ALQO adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2640,8 +2640,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SVALQO address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto SVALQO adresu</translation>
+        <source>Sign the message to prove you own this ALQO address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto ALQO adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2664,12 +2664,12 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The SVALQO address the message was signed with</source>
-        <translation>Adresa SVALQO s ktorou bola podpísaná správa</translation>
+        <source>The ALQO address the message was signed with</source>
+        <translation>Adresa ALQO s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SVALQO address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou SVALQO adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou ALQO adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2735,8 +2735,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SVALQO Core</source>
-        <translation>SVALQO Core</translation>
+        <source>ALQO Core</source>
+        <translation>ALQO Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2747,8 +2747,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The SVALQO Core developers</source>
-        <translation>Vývojári SVALQO Core</translation>
+        <source>The ALQO Core developers</source>
+        <translation>Vývojári ALQO Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3319,14 +3319,14 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
     </message>
 </context>
 <context>
-    <name>svalqo-core</name>
+    <name>alqo-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. SVALQO Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. SVALQO Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. ALQO Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. ALQO Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3381,8 +3381,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. SVALQO Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. SVALQO Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. ALQO Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. ALQO Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3613,8 +3613,8 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
-        <source>Disable all SVALQO specific functionality (Masternodes, Obfuscate, HyperSend, Budgeting) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre SVALQO (Masternode, Obfuscate, HyperSend, Rozpočty) (0-1, predvolené: %u)</translation>
+        <source>Disable all ALQO specific functionality (Masternodes, Obfuscate, HyperSend, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre ALQO (Masternode, Obfuscate, HyperSend, Rozpočty) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3709,27 +3709,27 @@ https://www.transifex.com/svalqo-crypto/svalqo-wallet-translations/</translation
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use svalqod, or the -server option to svalqo-qt, you must set an rpcpassword in the configuration file:
+        <source>To use alqod, or the -server option to alqo-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=svalqorpc
+rpcuser=alqorpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "SVALQO Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "ALQO Alert" admin@foo.com
 </source>
-        <translation>Pre použitie možnosti -server pre svalqo-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
+        <translation>Pre použitie možnosti -server pre alqo-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodné heslo:
-rpcuser=svalqorpc
+rpcuser=alqorpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Používateľské meno a heslo NEMÔŽU byť rovnaké.
 Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
 Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
-napríklad: alertnotify=echo %%s | mail -s "SVALQO Upozornenie" admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s "ALQO Upozornenie" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3745,8 +3745,8 @@ napríklad: alertnotify=echo %%s | mail -s "SVALQO Upozornenie" admin@foo.com
         <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SVALQO Core will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, SVALQO Core nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ALQO Core will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, ALQO Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ napríklad: alertnotify=echo %%s | mail -s "SVALQO Upozornenie" admin@foo.com
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The SVALQO Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra SVALQO</translation>
+        <source>Copyright (C) 2014-%i The ALQO Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra ALQO</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ napríklad: alertnotify=echo %%s | mail -s "SVALQO Upozornenie" admin@foo.com
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of SVALQO Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu SVALQO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ALQO Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu ALQO Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ napríklad: alertnotify=echo %%s | mail -s "SVALQO Upozornenie" admin@foo.com
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. SVALQO Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. SVALQO Core sa vypína.</translation>
+        <source>Initialization sanity check failed. ALQO Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. ALQO Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ napríklad: alertnotify=echo %%s | mail -s "SVALQO Upozornenie" admin@foo.com
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart SVALQO Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte SVALQO Core</translation>
+        <source>Wallet needed to be rewritten: restart ALQO Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte ALQO Core</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
